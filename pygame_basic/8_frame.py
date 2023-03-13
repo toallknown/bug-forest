@@ -67,7 +67,7 @@ while running:
             elif event.key == pygame.K_UP: #벌레씨의 점프
                 to_y -= bug_speed #to_y = to_y - 5와 같다.
             elif event.key == pygame.K_DOWN: #벌레씨의 착지
-                to_y += bug_speed #to_y = to_y + 5와 같다.
+                to_y += bug_speed #to_y = to_y + 5임 ㅋㅋㅋㅋㅋㅋ
 
         if event.type == pygame.KEYUP: #방향키를 땠는가?
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT: #왼쪽이나 오른쪽으로 안가는 벌레씨
@@ -126,7 +126,7 @@ while running:
     pygame.display.update() #게임화면을 계속 그리기
 
 #잠시 대기하셔서 벌레씨의 유언을 들어주세요
-pygame.time.delay(2000) #2초정도 대기
+pygame.time.delay(2000)
 
 #게임이 종료하면 pygame도 종료
 pygame.quit()
